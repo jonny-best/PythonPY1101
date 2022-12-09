@@ -9,7 +9,7 @@ def positive_check(fn):
     return wrapper
 
 
-@positive_check #  задекорировать функцию
+@positive_check # задекорировать функцию
 def some_func(num: int):
     ...
 
