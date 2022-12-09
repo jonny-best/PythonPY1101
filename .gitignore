@@ -1,0 +1,6 @@
+.idea
+*.yaml
+__init__.py
+**/tests
+
+
