@@ -1,6 +1,6 @@
 def flatten(list_of_lists: list):
     for inside_list in list_of_lists:
-        for value in inside_list:
+        for value in inside_list: # yield from inside_list (эта конструкция заменяет строки 3 и 4)
             yield value
 
 
